@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    header nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    header nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    /* Home Section */
+    #home {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: pink;
+      color: white;
+    }
+
+    #home h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    #home p {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    /* About Section */
+    #about {
+      padding: 60px 20px;
+      text-align: center;
+      background-color : lightblue;
+    }
+
+    #about h2 {
+      font-size: 36px;
+    }
+
+    #about p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    /* Skills Section */
+    #skills {
+      padding: 60px 20px;
+      background-color: lightgray;
+      color: white;
+      text-align: center;
+    }
+
+    #skills h2 {
+      font-size: 36px;
+    }
+
+    .skill-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .skill-buttons button {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .skill-buttons button:hover {
+      background-color: cornflowerblue;
+    }
+
+    /* Projects Section */
+    #projects {
+      padding: 60px 20px;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+
+    #projects h2 {
+      font-size: 36px;
+    }
+
+    .project {
+      margin: 20px 0;
+    }
+
+    .project h3 {
+      font-size: 24px;
+    }
+
+    .project p {
+      font-size: 16px;
+    }
+
+    /* Contact Section */
+    #contact {
+      padding: 60px 20px;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    #contact h2 {
+      font-size: 36px;
+    }
+
+    #contact form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    #contact form input,
+    #contact form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    #contact form button {
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    #contact form button:hover {
+      background-color: whitesmoke;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Hello, I'm Sai Sindhu Dhanekula</h1>
+    <p>I'm a Senior Front End Developer</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Front end developer with pretty good experience around 10 years in retail, consumer, banking and health sectors.
+        Excellent communication and analytical Skills 
+        Developed and managed the implementation of a micro frontend architecture for transportation systems, and logistics, enhancing user experience, and scalability using React, React Native, and Angular</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-buttons">
+      <button>HTML</button>
+      <button>CSS</button>
+      <button>JavaScript</button>
+      <button>React</button>
+      <button>Node.js</button>
+      <button>Angular</button>
+      <button>AWS</button>
+      <button>Docker</button>
+      <button>GCP</button>
+      <button>azure</button>
+      <!-- Add more skills as needed -->
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Pepsico</h3>
+      <p>Worked in the Transportation Optimization Suite focusing on load building and Route Optimization</p>
+    </div>
+    <div class="project">
+      <h3>Tractor Supply</h3>
+      <p>Worked in the front-end development of a Retail Inventory Management System</p>
+    </div>
+    <div class="project">
+        <h3>Key Bank</h3>
+        <p> Worked in the front-end development for KeyBank’s Digital Banking Platform enhancing the user experience for online banking services.</p>
+    </div>
+    <div class="project">
+        <h3>Blue Cross Blue Shield</h3>
+        <p>Developed a dynamic dashboard that displays personalized health insights, claims summaries, and relevant recommendations to members</p>
+    </div>
+    <div class="project">
+        <h3>Gaiwell Technologies</h3>
+        <p>Managed and developed the innovative healthcare management platform, HealthStream 360.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Sai Dhanekula" required />
+      <input type="email" placeholder="saidhanekula07@gmail.com" required />
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Sai Sindhu Dhanekula</p>
+  </footer>
+</body>
+</html>
